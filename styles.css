@@ -355,9 +355,9 @@ body {
 .team-member img {
     width: 200px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
     object-fit: cover;
-    border: 3px solid rgba(0, 191, 255, 0.8);
+    border: 3px solid #00aaff;
     transition: transform 0.3s ease-in-out;
 }
 
