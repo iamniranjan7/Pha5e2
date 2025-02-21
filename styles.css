@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Ramaraja", serif;
+    font-family: "Oswald", serif;
     background-color: #0a0a0a;
     color: white;
     height: 100vh;
@@ -322,6 +322,17 @@ body {
     margin-bottom: 30px;
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(0, 191, 255, 0.8);
+    
+}
+
+/* Apply Oswald font to the team section */
+.team-section,
+.team-section h2,
+.team-member h3,
+.team-member p,
+.team-member a,
+.footer-container p {
+    font-family: "Oswald", sans-serif;
 }
 
 /* Team Grid */
@@ -433,3 +444,46 @@ html, body {
     width: 100%;
 }
 
+a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Space between icon and text */
+    color: #0077b5;
+    /* LinkedIn blue */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #005582;
+    /* Darker blue on hover */
+}
+
+a i {
+    font-size: 20px;
+}
+
+.linkedin-link {
+    text-align: center;
+    /* Centers the entire paragraph */
+}
+
+.linkedin-link a {
+    display: inline-flex;
+    /* Keeps icon & text together */
+    align-items: center;
+    /* Aligns icon with text */
+    gap: 6px;
+    /* Adds space between icon & text */
+    font-size: 18px;
+    color: #0077b5;
+    /* LinkedIn blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkedin-link a:hover {
+    color: #005582;
+    /* Darker blue on hover */
+}
